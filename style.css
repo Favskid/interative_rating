@@ -95,6 +95,11 @@ button:hover {
     background-color: var(--White);
 }
 
+.item.selected {
+  background-color: var(--White);
+  color: var(--Grey-950);
+}
+
 /* hide ratings  */
 .rating-section {
     display: none;
@@ -140,4 +145,11 @@ button:hover {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 500px) {
+    .main-section,
+    .rating-section {
+        max-width: 300px;
+    }
 }
